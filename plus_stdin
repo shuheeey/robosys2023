@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 # SPDX-FileCopyrightText: 2023 Shuhei Yanaighori shuheidaigaku22@gmail.com
+# SPDX-License-Identifier: BSB-3-Clause
 import sys
 ans = 0#もともと0.0だったのを0に変更
 for line in sys.stdin:
