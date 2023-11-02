@@ -4,6 +4,7 @@
 # plusコマンド
 [![test](https://github.com/shuheeey/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/shuheeey/robosys2023/actions/workflows/test.yml)
 
+## 使い方
 標準入力から読み込んだ数字を足す。
 
 ## 必要なソフトウェア
