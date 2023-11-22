@@ -4,7 +4,7 @@
 
 
 out=$(seq 2 | ./plus)
-[ "${out}" = 3 ] || ng ${LINENO}
-[ "${out}" = 2 ] || ng ${LINENO}
+[ "${out}" = 3 ]
+[ "${out}" = 2 ]
 
 
