@@ -12,6 +12,5 @@ for line in sys.stdin:
     mul *= num
     ans += num
 
-print(mul)
-print(ans)
+print(mul, ans)
 
