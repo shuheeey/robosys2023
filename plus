@@ -2,15 +2,15 @@
 # SPDX-FileCopyrightText: 2023 Shuhei Yanaighori shuheidaigaku22@gmail.com
 # SPDX-License-Identifier: BSB-3-Clause
 import sys
-ans = 0#もともと0.0だったのを0に変更
+#ans = 0#もともと0.0だったのを0に変更
 mul = 1
 for line in sys.stdin:
     try:
-        ans += int(line)#intは文字列を整数に（失敗すると例外発生）
+        #ans += int(line)#intは文字列を整数に（失敗すると例外発生）
         mul *= int(line)
     except:
-        ans += float(line)
+        #ans += float(line)
         mul *= float(line)
 
-print(ans)
+#print(ans)
 print(mul)
