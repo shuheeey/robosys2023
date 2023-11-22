@@ -3,8 +3,9 @@
 # SPDX-License-Identifier: BSD-3-Clause
 
 
-out=$(seq 2 | ./plus)
-[ "${out}" = 3 ]
-[ "${out}" = 2 ]
+out=$(seq 3 | ./plus)
+
+[ "${out}" = 6 ]
+[ "${out}" = 6 ]
 
 
