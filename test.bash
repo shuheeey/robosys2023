@@ -14,7 +14,7 @@ out=$(seq 3 | ./plus)
 IFS=$'\n' read -r -a lines <<< "$out"
 
 [ "${lines[0]}" = 6 ] || ng ${LINENO}
-[ "${lines[1]}" = 6 ] || ng ${LINENO}
+[ "${lines[0]}" = 6 ] || ng ${LINENO}
 
 
 [ "$res" = 0 ] && echo OK
