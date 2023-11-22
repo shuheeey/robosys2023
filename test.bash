@@ -7,12 +7,12 @@ ng () {
       res = 1
 }
 
-res = 0
+res=0
 
 out=$(seq 3 | ./plus)
 
 [ "${out}" = 6 ] || ${LINENO}
-[ "${out}" = 6 ] || ${LINENO}
+#[ "${out}" = 6 ] || ${LINENO}
 
 [ "$res" = 0 ] && echo OK
 exit $res
