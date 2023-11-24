@@ -19,8 +19,8 @@ for line in sys.stdin:
 avg = ans / count if count != 0 else 0
 
 
-print(ans)
-print(mul)
-print(avg)
+print("合計値: "+str(ans))
+print("乗算値: "+str(mul))
+print("平均値: "+str(avg))
 
 
