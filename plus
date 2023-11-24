@@ -4,6 +4,8 @@
 import sys
 ans = 0
 mul = 1
+
+    
 for line in sys.stdin:
     try:
         num = int(line)
@@ -12,6 +14,10 @@ for line in sys.stdin:
     mul *= num
     ans += num
 
+str_ans = str(ans)
+str_mul = str(mul)
+
 print(ans)
 print(mul)
+
 
