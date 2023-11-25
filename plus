@@ -2,10 +2,12 @@
 # SPDX-FileCopyrightText: 2023 Shuhei Yanaighori shuheidaigaku22@gmail.com
 # SPDX-License-Identifier: BSB-3-Clause
 import sys
+from fractions import Fraction
 ans = 0
 mul = 1
 count = 0
-rec = 0
+avg = 0
+rec = Fraction(0, 1)
     
 for line in sys.stdin:
     try:
@@ -15,13 +17,13 @@ for line in sys.stdin:
     ans += num
     mul *= num
     count += 1
-    rec += 1 / num
-avg = ans / count if count != 0 else 0
+    avg = ans / count
+    rec += Fraction(1, num)
+
 
 
 print("合計値:" + str(ans))
 print("乗算値:" + str(mul))
 print("平均値:" + str(avg))
 print("逆数和:" + str(rec))
-
 
