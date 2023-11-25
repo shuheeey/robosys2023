@@ -17,7 +17,8 @@ out=$(seq 5 | ./plus)
 
 [ "${out}" = "合計値:15
 乗算値:120
-平均値:3.0" ] || ng ${LINENO}
+平均値:3.0
+逆数和:137/60" ] || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK
 exit $res
