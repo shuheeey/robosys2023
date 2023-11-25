@@ -5,7 +5,7 @@ import sys
 ans = 0
 mul = 1
 count = 0
-
+rec = 0
     
 for line in sys.stdin:
     try:
@@ -15,12 +15,13 @@ for line in sys.stdin:
     ans += num
     mul *= num
     count += 1
-
+    rec += 1 / num
 avg = ans / count if count != 0 else 0
 
 
 print("合計値:" + str(ans))
 print("乗算値:" + str(mul))
 print("平均値:" + str(avg))
+print("逆数和:" + str(rec))
 
 
