@@ -19,7 +19,7 @@ out=$(seq 5 | ./plus)
 乗算値:120
 平均値:3.0
 逆数和:137/60
-べき乗:32" ] || ng ${LINENO}
+2のべき乗:32" ] || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK
 exit $res
