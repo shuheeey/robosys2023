@@ -1,0 +1,33 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2023 Shuhei Yanaighori shuheidaigaku22@gmail.com
+# SPDX-License-Identifier: BSB-3-Clause
+import sys
+from fractions import Fraction
+ans = 0
+mul = 1
+count = 0
+avg = 0
+rec = Fraction(0, 1)
+power = 0
+    
+for line in sys.stdin:
+    try:
+        num = int(line)
+    except:
+        num = float(line)
+        sys.exit(1)
+        
+    ans += num
+    mul *= num
+    count += 1
+    avg = ans / count
+    rec += Fraction(1, num)
+
+power = 2 ** count
+
+
+print("合計値:" + str(ans))
+print("乗算値:" + str(mul))
+print("平均値:" + str(avg))
+print("逆数和:" + str(rec))
+print("2のべき乗:" + str(power))
