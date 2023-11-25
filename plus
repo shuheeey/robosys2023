@@ -8,6 +8,7 @@ mul = 1
 count = 0
 avg = 0
 rec = Fraction(0, 1)
+power = 0
     
 for line in sys.stdin:
     try:
@@ -20,10 +21,11 @@ for line in sys.stdin:
     avg = ans / count
     rec += Fraction(1, num)
 
+power = 2 ** count
 
 
 print("合計値:" + str(ans))
 print("乗算値:" + str(mul))
 print("平均値:" + str(avg))
 print("逆数和:" + str(rec))
-
+print("べき乗:" + str(power))
