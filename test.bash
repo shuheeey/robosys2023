@@ -16,7 +16,7 @@ out=$(seq 5 | ./plus)
 逆数和:137/60
 2のべき乗:32" ] || ng ${LINENO}
 
-out=$(echo あ | ./plus)
+out=$(seq あ | ./plus)
 [ "${out}" = "seq: 引数の浮動小数が無効です: `あ'
 詳しくは 'seq --help' を実行して下さい。
 合計値:0
