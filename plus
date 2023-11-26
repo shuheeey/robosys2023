@@ -15,7 +15,6 @@ for line in sys.stdin:
         num = int(line)
     except:
         num = float(line)
-        sys.exit(1)
         
     ans += num
     mul *= num
