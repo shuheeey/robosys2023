@@ -5,8 +5,13 @@
 [![test](https://github.com/shuheeey/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/shuheeey/robosys2023/actions/workflows/test.yml)
 
 ## インストール方法
+まずクローンする。
 ```bash
-https://github.com/shuheeey/robosys2023
+https://github.com/shuheeey/robosys2023.git
+```
+次にrobosys2023に移動する。
+```bash
+cd robosys2023
 ```
 
 ## 使い方
