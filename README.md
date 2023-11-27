@@ -5,17 +5,20 @@
 [![test](https://github.com/shuheeey/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/shuheeey/robosys2023/actions/workflows/test.yml)
 
 ## インストール方法
-まずクローンする。
 ```bash
 git clone https://github.com/shuheeey/robosys2023.git
 ```
-次にrobosys2023に移動する。
+
+## 使い方
+robosys2023に移動する
 ```bash
 cd robosys2023
 ```
 
-## 使い方
 標準入力から読み込んだ数字を足す。
+```bash
+seq 5 | ./plus
+```
 
 ## 必要なソフトウェア
 * Python
