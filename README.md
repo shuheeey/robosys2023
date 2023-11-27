@@ -5,20 +5,23 @@
 [![test](https://github.com/shuheeey/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/shuheeey/robosys2023/actions/workflows/test.yml)
 
 ## インストール方法
+クローンする
 ```bash
 git clone https://github.com/shuheeey/robosys2023.git
 ```
-
-## 使い方
 robosys2023に移動する
 ```bash
 cd robosys2023
 ```
 
-標準入力から読み込んだ数字を足す。
+## 使い方
+
+標準入力から読み込んだ数字の計算をする。
+・足し算・階乗・平均・逆数和
 ```bash
 seq 5 | ./plus
 ```
+
 
 ## 必要なソフトウェア
 * Python
