@@ -7,7 +7,7 @@
 ## インストール方法
 まずクローンする。
 ```bash
-https://github.com/shuheeey/robosys2023.git
+git clone https://github.com/shuheeey/robosys2023.git
 ```
 次にrobosys2023に移動する。
 ```bash
