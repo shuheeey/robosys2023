@@ -24,5 +24,11 @@ out=$(echo | ./plus)
 [ "$?" = 1 ]      || ng $LINENO
 [ "${out}" = "" ] || ng $LINENO
 
+out=$(seq あ | ./plus)
+[ "${out}" = "合計値:0
+乗算値:1
+平均値:0
+逆数和:0
+2のべき乗:0" ]
 [ "$res" = 0 ] && echo OK
 exit $res

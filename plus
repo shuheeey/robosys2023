@@ -16,13 +16,13 @@ for line in sys.stdin:
     except:
         num = float(line)
 
+
     ans += num
     mul *= num
     count += 1
     avg = ans / count
     rec += Fraction(1, num)
-
-power = 2 ** count
+    power = 2 ** count
 
 
 print("合計値:" + str(ans))
