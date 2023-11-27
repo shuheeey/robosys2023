@@ -4,7 +4,7 @@
 # plusコマンド
 [![test](https://github.com/shuheeey/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/shuheeey/robosys2023/actions/workflows/test.yml)
 
-##インストール方法
+## インストール方法
 ```bash
 https://github.com/shuheeey/robosys2023
 ```
